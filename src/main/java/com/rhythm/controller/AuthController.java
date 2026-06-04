@@ -42,7 +42,7 @@ import java.util.Map;
         }
 
         @PostMapping("/logout")
-        public String logout() {
+        public String logout()  {
 
             return authService.logout();
         }
