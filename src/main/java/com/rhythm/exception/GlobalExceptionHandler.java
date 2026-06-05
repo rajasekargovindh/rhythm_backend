@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
     @RestControllerAdvice
-    public class GlobalExceptionHandler {
+    public class GlobalExceptionHandler  {
 
         @ExceptionHandler(RuntimeException.class)
         @ResponseStatus(HttpStatus.BAD_REQUEST)
